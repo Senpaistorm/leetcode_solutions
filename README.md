@@ -17,6 +17,7 @@ Some documented solutions for leetcode problems (Python 3)
 * 94
 * 220
 * 300
+* 621
 * 652
 * 684 ?
 * 814
