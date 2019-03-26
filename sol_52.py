@@ -1,6 +1,6 @@
-# LC question #51: N-queens
+# LC question #51: N-queens II
 
-# Given an integer n, return all distinct solutions to the n-queens puzzle.
+# Given an integer n, return number of all distinct solutions to the n-queens puzzle.
 
 # Each solution contains a distinct board configuration of the n-queens' pl
 #acement, where 'Q' and '.' both indicate a queen and an empty space respectively.
@@ -41,7 +41,8 @@ class Solution:
                 diag1[k-i] = 0
                 diag2[k+i] = 0
         validNQueen(0, [], row, col, diag1, diag2)
-        return [ ["."*i + "Q" + "."*(n-i-1) for i in sol] for sol in res]
+        return len(res)
 sol = Solution()
 print(sol.solveNQueens(4))
 print(sol.solveNQueens(8))
+print(sol.solveNQueens(1000))

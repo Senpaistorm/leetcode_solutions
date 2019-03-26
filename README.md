@@ -13,6 +13,8 @@ Some documented solutions for leetcode problems (Python 3)
 * 33
 * 34
 * 48
+* 51
+* 52
 * 53
 * 94
 * 220
